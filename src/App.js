@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import api from "./services/api";
+
 import {
   SafeAreaView,
   View,
@@ -9,7 +11,6 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from "react-native";
-import api from "./services/api";
 
 
 export default function App() {
